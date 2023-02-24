@@ -1,0 +1,14 @@
+name: NoShearWool
+version: '${project.version}'
+main: rurik.noshearwool.Noshearwool
+api-version: 1.18
+authors: [ Rurik ]
+description: Adds command to toggle the ability for shears to break wool
+commands:
+  noshearwool:
+    description: Main plugin command, acts as a toggle
+    usage: /<command>
+permissions:
+  noshearwool.toggle:
+    default: op
+    description: Grants access to the /noshearwool command
